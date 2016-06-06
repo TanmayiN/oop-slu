@@ -19,7 +19,7 @@ def carRental(clc):
 			m = Decimal((miles - 100)*.25)
 			n = round(m,2)
 			return (base + n)
-	elif clc == 'w':
+	elif clc == 'w' or 'W':
 		week = e/7
 		base = 190*week
 		miles = (mil)/week
